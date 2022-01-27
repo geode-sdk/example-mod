@@ -3,4 +3,4 @@ cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 project($Template VERSION 0.1.0 LANGUAGES C CXX)
 
 set(SOURCE_FILES main.cpp)
-include(Geode/SDK/BuildFiles/cmake/GeodeRoot.cmake)
+include(Geode/SDK/BuildFiles/cmake/Root.cmake)
