@@ -1,4 +1,4 @@
-#include <Geode>
+#include <Geode.hpp>
 
 class $(MenuLayer) {
 	void onMoreGames(cocos2d::CCObject*) {
