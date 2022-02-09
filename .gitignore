@@ -30,3 +30,23 @@
 *.exe
 *.out
 *.app
+
+# Macos be like
+**/.DS_Store
+
+# Cache files for Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# Workspace files are user-specific
+*.sublime-workspace
+
+# I need to find a way to automatically remove this
+Source/Geode/pkg/uber-apk-signer.jar
+
+# Ignore build folders
+**/build
+
+# ILY vscode
+**/.vscode
