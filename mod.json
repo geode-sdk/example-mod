@@ -1,0 +1,15 @@
+{
+    "geode":        1,
+	"version":      "v1.0.0",
+	"id":           "com.you.example",
+    "name":         "Example",
+    "developer":    "You",
+    "description":  "example mod",
+    "binary": "ExampleMod",
+    "dependencies": [
+    	{
+    	  "id": "com.geode.api",
+    	  "required": true
+    	}
+    ]
+}
