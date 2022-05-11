@@ -1,11 +1,11 @@
 {
     "geode":        1,
 	"version":      "v1.0.0",
-	"id":           "com.you.example",
-    "name":         "Example",
+	"id":           "com.you.template",
+    "name":         "Template",
     "developer":    "You",
-    "description":  "example mod",
-    "binary": "ExampleMod",
+    "description":  "template mod",
+    "binary": "Template",
     "dependencies": [
     	{
     	  "id": "com.geode.api",
