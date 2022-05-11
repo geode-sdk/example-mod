@@ -9,7 +9,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 
 find_path(GEODE_SDK_PATH
   NAMES Geode.cmake
-  PATHS $ENV{GEODE_SUITE}/sdk /Users/Shared/Geode/SDK/suite/sdk /usr/local/geode/sdk
+  PATHS $ENV{GEODE_SUITE}/sdk /Users/Shared/Geode/suite/sdk /usr/local/geode/sdk
   DOC "Geode SDK path."
   REQUIRED
 )
