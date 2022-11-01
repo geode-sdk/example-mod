@@ -2,7 +2,9 @@
  * Include the Geode headers.
  */
 #include <Geode/Geode.hpp>
-// Required to use $modify
+/**
+ * Required to use $modify
+ */
 #include <Geode/Modify.hpp>
 
 /**
