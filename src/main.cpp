@@ -3,9 +3,9 @@
  */
 #include <Geode/Geode.hpp>
 /**
- * Required to use $modify
+ * Required to modify the MenuLayer class
  */
-#include <Geode/Modify.hpp>
+#include <Geode/modify/MenuLayer.hpp>
 
 /**
  * Brings cocos2d and all Geode namespaces 
