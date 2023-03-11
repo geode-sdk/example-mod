@@ -11,7 +11,7 @@
  * Brings cocos2d and all Geode namespaces 
  * to the current scope.
  */
-USE_GEODE_NAMESPACE();
+using namespace geode::prelude;
 
 /**
  * `$modify` lets you extend and modify GD's 
