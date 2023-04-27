@@ -22,5 +22,5 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} $ENV{GEODE_SDK}/build)
 
-target_link_libraries(${PROJECT_NAME} geode-sdk)
-create_geode_file(${PROJECT_NAME})
+# Set up dependencies, resources, link Geode
+setup_geode_mod(${PROJECT_NAME})
