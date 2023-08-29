@@ -1,0 +1,14 @@
+{
+	"geode": "v1.2.0",
+	"version": "v1.0.0",
+	"id": "org.geode.examplemod",
+	"name": "Example Mod",
+	"developer": "Geode Team",
+	"repository": "https://github.com/geode-sdk/example-mod",
+	"issues": {
+		"url": "https://github.com/geode-sdk/example-mod/issues",
+		"info": "Any bugs with example mod should be reported here"
+	},
+	"description": "Example mod",
+	"binary": "geode.examplemod"
+}
