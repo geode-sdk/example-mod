@@ -53,3 +53,6 @@ build-*/
 
 # clangd
 .cache/
+
+# Visual Studio
+.vs/
