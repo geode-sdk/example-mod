@@ -1,0 +1,8 @@
+{
+    "geode": "2.0.0-beta.22",
+    "gd": "2.200",
+    "id": "example.mod",
+    "name": "Example Mod",
+    "version": "v1.0.0",
+    "developer": "Me"
+}
