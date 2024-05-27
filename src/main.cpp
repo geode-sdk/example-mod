@@ -4,6 +4,12 @@
 #include <Geode/Geode.hpp>
 
 /**
+ * Notice the header being included, you *must* include the header for
+ * the class you are modifying, or you will get a compile error.
+ */
+#include <Geode/modify/MenuLayer.hpp>
+
+/**
  * Brings cocos2d and all Geode namespaces to the current scope.
  */
 using namespace geode::prelude;
@@ -16,11 +22,7 @@ using namespace geode::prelude;
  *
  * Here we use the overloaded `$modify` macro to set our own class name,
  * so that we can use it for button callbacks.
- *
- * Notice the header being included, you *must* include the header for
- * the class you are modifying, or you will get a compile error.
  */
-#include <Geode/modify/MenuLayer.hpp>
 class $modify(MyMenuLayer, MenuLayer) {
 	/**
 	 * Typically classes in GD are initialized using the `init` function, (though not always!),
