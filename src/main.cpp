@@ -19,6 +19,10 @@ using namespace geode::prelude;
  *
  * Notice the header being included, you *must* include the header for
  * the class you are modifying, or you will get a compile error.
+ *
+ * Another way you could do this is like this:
+ *
+ * struct MyMenuLayer : Modify<MyMenuLayer, MenuLayer> {};
  */
 #include <Geode/modify/MenuLayer.hpp>
 class $modify(MyMenuLayer, MenuLayer) {
