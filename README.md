@@ -1,9 +1,12 @@
-# Template
-This is where she makes a mod.
+<div align="center">
+<h1>Template</h1>
+<p>This is where she makes a mod.</p>
 
 <img src="logo.png" width="150" alt="the mod's logo" />
 
-*Update logo.png to change your mod's icon (please)*
+<em>Update logo.png to change your mod's icon (please)</em>
+
+</div>
 
 ## Getting started
 We recommend heading over to [the getting started section on our docs](https://docs.geode-sdk.org/getting-started/) for useful info on what to do next.
