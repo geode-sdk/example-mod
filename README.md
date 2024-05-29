@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
 <h1>Template</h1>
 <p>This is where she makes a mod.</p>
 
