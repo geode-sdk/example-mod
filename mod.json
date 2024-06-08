@@ -1,0 +1,14 @@
+{
+	"geode": "$GEODE_VERSION",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206",
+		"ios": "2.206"
+	},
+	"id": "$MOD_ID",
+	"name": "$MOD_NAME",
+	"version": "$MOD_VERSION",
+	"developer": "$MOD_DEVELOPER",
+	"description": "$MOD_DESCRIPTION"
+}
