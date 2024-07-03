@@ -31,24 +31,34 @@
 *.out
 *.app
 
-# Macos be like
-**/.DS_Store
+# macOS
+.DS_Store
 
 # Cache files for Sublime Text
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
 
-# Ignore build folders
-**/build
-# Ignore platform specific build folders
-build-*/
-
 # Workspace files are user-specific
 *.sublime-workspace
 
-# ILY vscode
-**/.vscode
+# Ignore build folders
+**/build
+
+# Ignore platform specific build folders
+build-*/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
 .idea/
 
 # clangd
@@ -58,4 +68,4 @@ build-*/
 .vs/
 
 # CLion
-/cmake-build-*/
+cmake-build-*/
