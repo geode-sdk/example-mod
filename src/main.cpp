@@ -4,7 +4,7 @@
 #include <Geode/Geode.hpp>
 
 /**
- * Brings cocos2d and all Geode namespaces to the current scope.
+ * Brings Cocos2d and all Geode namespaces to the current scope.
  */
 using namespace geode::prelude;
 
@@ -45,13 +45,13 @@ class $modify(MyMenuLayer, MenuLayer) {
 		/**
 		 * You can use methods from the `geode::log` namespace to log messages to the console,
 		 * being useful for debugging and such. See this page for more info about logging:
-		 * https://docs.geode-sdk.org/tutorials/logging
+		 * https://docs.geode-sdk.org/tutorials/logging/
 		*/
 		log::debug("Hello from my MenuLayer::init hook! This layer has {} children.", this->getChildrenCount());
 
 		/**
 		 * See this page for more info about buttons
-		 * https://docs.geode-sdk.org/tutorials/buttons
+		 * https://docs.geode-sdk.org/tutorials/buttons/
 		*/
 		auto myButton = CCMenuItemSpriteExtra::create(
 			CCSprite::createWithSpriteFrameName("GJ_likeBtn_001.png"),
@@ -65,7 +65,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		/**
 		 * Here we access the `bottom-menu` node by its ID, and add our button to it.
 		 * Node IDs are a Geode feature, see this page for more info about it:
-		 * https://docs.geode-sdk.org/tutorials/nodetree
+		 * https://docs.geode-sdk.org/tutorials/nodetree/
 		*/
 		auto menu = this->getChildByID("bottom-menu");
 		menu->addChild(myButton);
@@ -79,7 +79,7 @@ class $modify(MyMenuLayer, MenuLayer) {
 		/**
 		 * We update the layout of the menu to ensure that our button is properly placed.
 		 * This is yet another Geode feature, see this page for more info about it:
-		 * https://docs.geode-sdk.org/tutorials/layouts
+		 * https://docs.geode-sdk.org/tutorials/layouts/
 		*/
 		menu->updateLayout();
 
