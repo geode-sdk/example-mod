@@ -1,3 +1,3 @@
-# Geode Example/Template Mod
+# Template Mod
 
-Edit this file to change your mod's description.
+Edit about.md to change this
