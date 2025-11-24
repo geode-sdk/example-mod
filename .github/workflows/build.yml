@@ -1,0 +1,39 @@
+# .github/workflows/build-mod.yml
+name: Build Geode Mod
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        target: [Android64]  # Puedes añadir Android32, Win64, etc
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Geode CLI
+        uses: geode-sdk/cli@main
+
+      - name: Build mod for ${{ matrix.target }}
+        uses: geode-sdk/build-geode-mod@main
+        with:
+          target: ${{ matrix.target }}
+          build-config: Release
+          android-min-sdk: 23
+          combine: true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: geode-mod-${{ matrix.target }}
+          path: build/output/*.geode    # ajusta según tu salida
