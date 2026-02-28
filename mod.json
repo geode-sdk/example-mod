@@ -10,5 +10,8 @@
 	"name": "$MOD_NAME",
 	"version": "$MOD_VERSION",
 	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION"
+	"description": "$MOD_DESCRIPTION",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	}
 }
