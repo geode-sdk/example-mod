@@ -1,1 +1,2 @@
-Edit this file to change your mod's support info, or delete it if you don't need it.
+Edit this file to add your mod's support info (Ko-Fi or Patreon for example).
+You can also delete this file if you don't need it.
