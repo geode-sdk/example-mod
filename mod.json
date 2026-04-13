@@ -12,6 +12,6 @@
 	"developer": "$MOD_DEVELOPER",
 	"description": "$MOD_DESCRIPTION",
 	"dependencies": {
-		"geode.node-ids": ">=v1.20.0"
+		"geode.node-ids": ">=v1.23.3"
 	}
 }
