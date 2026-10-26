@@ -20,7 +20,7 @@
         "GEODE_BINDINGS_REPO_PATH": "/workspace/bindings",
 
         "GEODE_DONT_INSTALL_MODS": "On",
-        "SKIP_BUILDING_CODEGEN": "Off"
+        "SKIP_BUILDING_CODEGEN": "On"
       }
     },
 
@@ -43,7 +43,7 @@
         "GEODE_BINDINGS_REPO_PATH": "/workspace/bindings",
 
         "GEODE_DONT_INSTALL_MODS": "On",
-        "SKIP_BUILDING_CODEGEN": "Off"
+        "SKIP_BUILDING_CODEGEN": "On"
       }
     },
 
@@ -66,7 +66,7 @@
         "GEODE_BINDINGS_REPO_PATH": "/workspace/bindings",
 
         "GEODE_DONT_INSTALL_MODS": "On",
-        "SKIP_BUILDING_CODEGEN": "Off"
+        "SKIP_BUILDING_CODEGEN": "On"
       }
     },
 
@@ -85,7 +85,7 @@
         "GEODE_BINDINGS_REPO_PATH": "/workspace/bindings",
 
         "GEODE_DONT_INSTALL_MODS": "On",
-        "SKIP_BUILDING_CODEGEN": "Off"
+        "SKIP_BUILDING_CODEGEN": "On"
       }
     },
 
@@ -102,7 +102,7 @@
         "GEODE_BINDINGS_REPO_PATH": "/workspace/bindings",
 
         "GEODE_DONT_INSTALL_MODS": "On",
-        "SKIP_BUILDING_CODEGEN": "Off"
+        "SKIP_BUILDING_CODEGEN": "On"
       }
     }
 
