@@ -3,6 +3,9 @@ build/
 build-*/
 cmake-build-*/
 
+# Built binary folder
+bin/
+
 # General cache folder
 .cache/
 

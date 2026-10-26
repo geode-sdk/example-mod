@@ -1,0 +1,15 @@
+services:
+  combine-build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        MOD_ID: example.mod
+        SDK_VERSION: 5.9.0
+
+    image: export-combine
+    volumes:
+      - cpm-cache:/workspace/cpm-cache
+      - ./bin:/workspace/bin
+volumes:
+  cpm-cache:
