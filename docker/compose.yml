@@ -1,0 +1,70 @@
+services:
+  export-windows:
+    image: geode-export-windows
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: export-windows
+      args: &build-args
+        MOD_ID: "${MOD_ID:?MOD_ID is required}"
+        GEODE_VERSION: "${GEODE_VERSION:?GEODE_VERSION is required}"
+
+  build-windows:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: build-windows
+      args: &build-args
+        MOD_ID: "${MOD_ID:?MOD_ID is required}"
+        GEODE_VERSION: "${GEODE_VERSION:?GEODE_VERSION is required}"
+    volumes:
+      - ./bin:/workspace/bin
+
+  build-android64:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: build-android64
+      args: *build-args
+    volumes:
+      - ./bin:/workspace/bin
+
+  build-android32:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: build-android32
+      args: *build-args
+    volumes:
+      - ./bin:/workspace/bin
+
+  build-macos:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: build-macos
+      args: *build-args
+    volumes:
+      - ./bin:/workspace/bin
+
+  build-ios:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: build-ios
+      args: *build-args
+    volumes:
+      - ./bin:/workspace/bin
+
+  export-combine:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: export-combine
+      args: *build-args
+    volumes:
+      - ./bin:/workspace/bin
+
+volumes:
+  cpm-cache:
+# TODO: figure out the cpm cache
